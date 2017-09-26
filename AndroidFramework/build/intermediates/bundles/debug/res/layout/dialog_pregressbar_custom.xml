@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@layout/dialog_xml_bg"
+    android:padding="15dp"
+    android:gravity="center_vertical" >
+     
+        
+        <ProgressBar
+            android:id="@+id/prog_popup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:indeterminate="false" />
+        
+        <TextView 
+            android:id="@+id/prog_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Test "
+            android:layout_toRightOf="@id/prog_popup"
+            android:paddingLeft="15dp"/>
+         
+
+</RelativeLayout>

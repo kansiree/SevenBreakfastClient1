@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@layout/dialog_xml_bg"
+    android:padding="15dp"
+    android:gravity="center_vertical" >
+     
+        
+        <ProgressBar
+            android:id="@+id/prog_popup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:indeterminate="false" />
+        
+        <TextView 
+            android:id="@+id/prog_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_toRightOf="@id/prog_popup"
+            android:layout_marginTop="5dp"
+            android:padding="15dp"/>
+        
+        <Button android:id="@+id/bt"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/prog_text"
+             android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@layout/dialog_xml_bg_btn"
+            android:clickable="true"
+            android:layout_marginTop="5dp"
+            android:textColor="#ffffff"
+            android:text="Cancel"/>
+         
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@layout/dialog_xml_bg"
+    android:padding="10dp">
+    
+	<RelativeLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    >
+	    
+	    <ImageView 
+	        android:id="@+id/img_icon"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/checked"
+	        android:layout_alignParentLeft="true"/>
+		<TextView 
+		    android:id="@+id/lb_name"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+	        android:padding="10dp"
+			android:layout_toRightOf="@id/img_icon"
+			android:textColor="#7090C8"
+			android:textSize="20dp"
+			android:textStyle="bold"
+			android:gravity="right"
+		    />
+	
+	</RelativeLayout>
+    <ListView
+        android:id="@+id/list_dialog"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"/>
+    
+    <Button 
+        android:id="@+id/bt_cancel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="ยกเลิก"
+        android:textSize="18dp"
+        android:background="@layout/dialog_xml_bg_btn"
+        android:textColor="#ffffff"
+        android:padding="10dp"
+        android:layout_margin="15dp"
+        android:gravity="center_vertical|center_horizontal" 
+        />
+</LinearLayout>

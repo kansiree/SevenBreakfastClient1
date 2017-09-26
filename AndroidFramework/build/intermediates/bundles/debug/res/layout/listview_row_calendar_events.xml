@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:paddingLeft="1dp"
+    android:paddingRight="1dp"
+    android:paddingTop="1dp" >
+
+    <TextView
+        android:id="@+id/calendar_event_title_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/calendar_events_time_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/calendar_event_title_list"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        android:textSize="15sp"
+        android:textColor="@color/dark_gray" />
+    <ImageView 
+        android:id="@+id/calendar_event_check_list"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/calendar_event_title_list"
+        android:layout_toRightOf="@+id/calendar_events_time_list"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/checked"
+        android:visibility="invisible"/>
+
+</RelativeLayout>

@@ -1,0 +1,148 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/ordernextre"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            >
+
+            <TextView
+                android:id="@+id/txt_receiveStore_ro"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Receive Store"
+                android:textAllCaps="true"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/image_ro"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_alignStart="@+id/txt_receive_ro"
+                android:layout_below="@+id/txt_receiveStore_ro"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ic_basket"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_receiveStore_ro"
+                android:layout_marginStart="15dp" />
+
+            <TextView
+                android:id="@+id/txt_order_ro"
+                style="@style/txt_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_receiveStore_ro"
+                android:layout_marginLeft="15dp"
+                android:layout_toEndOf="@+id/image_ro"
+                android:text="Store"
+                app:layout_constraintBottom_toBottomOf="@+id/image_ro"
+                app:layout_constraintLeft_toRightOf="@+id/image_ro"
+                app:layout_constraintTop_toTopOf="@+id/image_ro"
+                android:layout_marginStart="15dp" />
+
+            <TextView
+                android:id="@+id/txt_price_ro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/txt_receiveStore_ro"
+                android:layout_marginRight="30dp"
+                android:text="Distance"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="@+id/txt_order_ro"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/txt_order_ro"
+                android:layout_marginEnd="30dp" />
+
+            <TextView
+                android:id="@+id/txt_receive_ro"
+                style="@style/txt_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/image_ro"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:text="Receive Time"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/image_ro"
+                android:layout_marginStart="15dp" />
+
+            <TextView
+                android:id="@+id/txt_time_ro"
+                style="@style/txt_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/txt_receive_ro"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="30dp"
+                android:text="in 30 minutes"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/txt_receive_ro" />
+
+            <TextView
+                android:id="@+id/txt_item_ro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="item(s)"
+                android:textAllCaps="true"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/txt_time_ro" />
+
+            <TextView
+                android:id="@+id/txt_sum_ro"
+                style="@style/txt_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="right"
+                android:padding="5dp"
+                android:paddingEnd="20dp"
+                android:text="Total XXXX Baht"
+                android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toTopOf="@+id/btn_confirm_ro"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:id="@+id/btn_confirm_ro"
+                style="@style/btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_sum_ro"
+                android:text="Confirm Order"
+                android:textAllCaps="false"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginBottom="0dp" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/list_ro"
+                android:layout_width="314dp"
+                android:layout_height="221dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                app:layout_constraintBottom_toTopOf="@+id/txt_sum_ro"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/txt_item_ro"
+                app:layout_constraintVertical_bias="0.483" />
+        </android.support.constraint.ConstraintLayout>
+</LinearLayout>

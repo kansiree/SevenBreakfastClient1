@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="lib" path="D:/WorkGosoft/Library/mobileFrameworkDepen/commons-dbcp-1.4.jar"/>
+	<classpathentry kind="lib" path="D:/WorkGosoft/Library/mobileFrameworkDepen/commons-pool-1.5.6.jar"/>
+	<classpathentry kind="lib" path="D:/WorkGosoft/Library/mobileFrameworkDepen/javaee.jar"/>
+	<classpathentry kind="lib" path="D:/WorkGosoft/Library/mobileFrameworkDepen/jsoup-1.8.1.jar"/>
+	<classpathentry kind="lib" path="D:/WorkGosoft/Library/mobileFrameworkDepen/smack.jar"/>
+	<classpathentry kind="lib" path="D:/WorkGosoft/Library/mobileFrameworkDepen/smackx.jar"/>
+	<classpathentry kind="lib" path="D:/WorkGosoft/Library/mobileFrameworkDepen/smackx-jingle.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/MobileFramework"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

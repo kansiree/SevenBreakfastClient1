@@ -1,0 +1,207 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="th.co.gosoft.storemobile.sevenbreakfastclient.FragmentProfile.ProfileFrament">
+
+    <!-- TODO: Update blank fragment layout -->
+
+        <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/txt_name_acc"
+            style="@style/txt_header"
+            android:layout_width="0dp"
+            android:background="@color/white"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:padding="10dp"
+            android:paddingStart="20dp"
+            android:text="User Name"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/txt_sh"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp" />
+
+        <TextView
+            android:id="@+id/txt_sh"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txt_name_acc"
+            android:paddingStart="20dp"
+            android:paddingTop="5dp"
+            android:textSize="10sp"
+            android:text="Favourite store"
+            android:textAllCaps="true"
+            android:layout_marginBottom="5dp"
+            app:layout_constraintBottom_toTopOf="@+id/txt_store_acc"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp" />
+
+        <TextView
+            android:id="@+id/txt_store_acc"
+            style="@style/txt_detail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txt_sh"
+            android:paddingBottom="10dp"
+            android:paddingEnd="10dp"
+            android:paddingStart="20dp"
+            android:text="7-Eleven Location"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/listView_store_acc"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp" />
+
+                <TextView
+            android:id="@+id/txt_how_to_acc"
+            style="@style/txt_detail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/listView_store_acc"
+            android:padding="10dp"
+            android:paddingStart="20dp"
+            android:text="How to use"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/txt_condition_acc"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp" />
+
+        <TextView
+            android:id="@+id/txt_condition_acc"
+            style="@style/txt_detail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txt_how_to_acc"
+            android:padding="10dp"
+            android:paddingStart="20dp"
+            android:text="Terms and Condition of Use"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/txt_policy_acc"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp" />
+
+        <TextView
+            android:id="@+id/txt_policy_acc"
+            style="@style/txt_detail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txt_condition_acc"
+            android:padding="10dp"
+            android:paddingStart="20dp"
+            android:text="Privacy Policy"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/btn_LogOut_acc"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp" />
+
+        <Button
+            android:id="@+id/btn_LogOut_acc"
+            style="@style/btn"
+            android:layout_width="344dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="Log Out"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/txt_ver_acc"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp" />
+
+        <TextView
+            android:id="@+id/txt_ver_acc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_LogOut_acc"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Seven Breakfast Version 1.0.0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp" />
+
+        <ImageView
+            android:id="@+id/imageView_acc"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@color/black"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/txt_name_acc"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintVertical_bias="0.509"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/listView_store_acc"
+                    style="@style/txt_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="178dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/txt_store_acc"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="2.65"
+                    app:layout_constraintBottom_toTopOf="@+id/txt_how_to_acc"
+                    app:layout_constraintHorizontal_bias="0.454"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent" />
+            </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+</FrameLayout>

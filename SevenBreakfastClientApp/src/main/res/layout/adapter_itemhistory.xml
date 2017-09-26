@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Items"-->
+            <!--style="@style/item_history_text" />-->
+        <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" -->
+            <!--android:id="@+id/arrow_down"-->
+            <!--android:src="@drawable/ic_keyboard_arrow_down"-->
+            <!--android:layout_alignParentEnd="true"-->
+            <!--style="@style/image_history" />-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" -->
+            <!--android:text="numItem"-->
+            <!--android:layout_toLeftOf="@+id/arrow_down"-->
+            <!--style="@style/item_history_text"-->
+            <!--/>-->
+    <!--</RelativeLayout>-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/ic_launcher_round"
+            android:id="@+id/his_image_product"
+            style="@style/image_history"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/his_nameProduct"
+            android:text="nameProduct"
+            android:layout_toRightOf="@+id/his_image_product"
+            style="@style/item_history_text"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="value"
+            android:id="@+id/his_text_value"
+            android:layout_toRightOf="@+id/his_nameProduct"
+            style="@style/item_history_text"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/his_value"
+            android:text="num"
+            android:layout_toRightOf="@+id/his_text_value"
+            style="@style/item_history_text"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/his_text_price"
+            android:text="price"
+            android:layout_toRightOf="@+id/his_value"
+            style="@style/item_history_text"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/his_price"
+            android:text="nprice"
+            android:layout_toRightOf="@+id/his_text_price"
+            style="@style/item_history_text"
+            />
+    </RelativeLayout>
+</LinearLayout>
+</android.support.v7.widget.CardView>

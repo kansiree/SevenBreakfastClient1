@@ -1,0 +1,50 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="txt_header">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#1e1e1d</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="txt_detail">
+        <item name="android:textColor">#484747</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="txt_price">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#1a9f0b</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="btn">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <array name="time">
+        <item name="select time">Select Time</item>
+        <item name="one_hour">1 hour</item>
+        <item name="half">30 min</item>
+        <item name="quarter"> 15 min</item>
+    </array>
+    <style name="item_history_text">
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="image_history">
+        <item name="android:layout_margin">5dp</item>
+    </style>
+</resources>

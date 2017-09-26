@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <ProgressBar
+            android:id="@+id/progressBar3"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="26dp"
+            android:layout_height="19dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView_ro"
+            app:layout_constraintEnd_toEndOf="@+id/imageView_ro"
+            app:layout_constraintStart_toStartOf="@+id/imageView_ro"
+            app:layout_constraintTop_toTopOf="@+id/imageView_ro" />
+
+        <ImageView
+            android:id="@+id/imageView_ro"
+            android:layout_width="80dp"
+            android:scaleType="centerCrop"
+            android:layout_height="48dp"
+            android:layout_marginStart="10dp"
+            android:src="@color/black"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="0dp"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <TextView
+            android:id="@+id/txt_order_ro"
+            style="@style/txt_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView_ro"
+            android:layout_toEndOf="@+id/imageView_ro"
+            android:text="Order"
+            app:layout_constraintTop_toTopOf="@+id/imageView_ro"
+            android:layout_marginTop="0dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView_ro"
+            android:layout_marginBottom="0dp"
+            app:layout_constraintLeft_toRightOf="@+id/imageView_ro"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:id="@+id/txt_price_ro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/txt_order_ro"
+            android:layout_alignBottom="@+id/txt_order_ro"
+            android:layout_alignParentEnd="true"
+            android:text="Price"
+            android:textSize="14sp"
+            android:layout_marginRight="15dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/txt_order_ro"
+            android:layout_marginTop="0dp"
+            app:layout_constraintBottom_toBottomOf="@+id/txt_order_ro"
+            android:layout_marginBottom="0dp" />
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<th.co.gosoft.android.framework.lib.calendar.custom.SquareTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/calendar_tv"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/calendar_cell_bg"
+    android:gravity="center"
+    android:textSize="12sp"
+    android:textStyle="bold" />
+

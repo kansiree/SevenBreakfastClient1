@@ -1,0 +1,33 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\android_exem\SevenBreakfastClient\AndroidFramework\AndroidManifest.xml:2:1-15:12
+INJECTED from D:\android_exem\SevenBreakfastClient\AndroidFramework\AndroidManifest.xml:2:1-15:12
+INJECTED from D:\android_exem\SevenBreakfastClient\AndroidFramework\AndroidManifest.xml:2:1-15:12
+INJECTED from D:\android_exem\SevenBreakfastClient\AndroidFramework\AndroidManifest.xml:2:1-15:12
+INJECTED from D:\android_exem\SevenBreakfastClient\AndroidFramework\AndroidManifest.xml:2:1-15:12
+INJECTED from D:\android_exem\SevenBreakfastClient\AndroidFramework\AndroidManifest.xml:2:1-15:12
+INJECTED from D:\android_exem\SevenBreakfastClient\AndroidFramework\AndroidManifest.xml:2:1-15:12
+	package
+		ADDED from D:\android_exem\SevenBreakfastClient\AndroidFramework\AndroidManifest.xml:3:5-45
+		INJECTED from D:\android_exem\SevenBreakfastClient\AndroidFramework\AndroidManifest.xml
+		INJECTED from D:\android_exem\SevenBreakfastClient\AndroidFramework\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\android_exem\SevenBreakfastClient\AndroidFramework\AndroidManifest.xml:5:5-30
+		INJECTED from D:\android_exem\SevenBreakfastClient\AndroidFramework\AndroidManifest.xml
+		INJECTED from D:\android_exem\SevenBreakfastClient\AndroidFramework\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\android_exem\SevenBreakfastClient\AndroidFramework\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from D:\android_exem\SevenBreakfastClient\AndroidFramework\AndroidManifest.xml:4:5-28
+		INJECTED from D:\android_exem\SevenBreakfastClient\AndroidFramework\AndroidManifest.xml
+		INJECTED from D:\android_exem\SevenBreakfastClient\AndroidFramework\AndroidManifest.xml
+uses-sdk
+ADDED from D:\android_exem\SevenBreakfastClient\AndroidFramework\AndroidManifest.xml:7:5-44
+	android:minSdkVersion
+		ADDED from D:\android_exem\SevenBreakfastClient\AndroidFramework\AndroidManifest.xml:7:15-41
+application
+ADDED from D:\android_exem\SevenBreakfastClient\AndroidFramework\AndroidManifest.xml:9:5-13:19
+	android:label
+		ADDED from D:\android_exem\SevenBreakfastClient\AndroidFramework\AndroidManifest.xml:11:9-41
+	android:icon
+		ADDED from D:\android_exem\SevenBreakfastClient\AndroidFramework\AndroidManifest.xml:10:9-45
